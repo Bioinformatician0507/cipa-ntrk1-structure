@@ -18,9 +18,10 @@ This makes biological sense. The kinase domain is where NTRK1 phosphorylates its
 
 This AlphaFold structure has lower confidence in some flexible regions (about 15% of residues fall in the lowest pLDDT confidence band), so I'm not over-interpreting exact 3D positioning in those stretches. The kinase domain itself, fortunately, is typically one of the better-resolved regions in receptor tyrosine kinase structures, which is part of why this result holds up.
 
-## Repo structurenotebooks/ # Colab notebook: position extraction, domain mapping, statistics, 3D visualization
-data/ # AlphaFold structure (AF-P04629-F1-model_v6.pdb), raw variant data
-results/ # Position histogram, 3D structure screenshot, variants-with-positions CSV
+## Repo structure notebooks
+# Colab notebook: position extraction, domain mapping, statistics, 3D visualization data, AlphaFold structure (AF-P04629-F1-model_v6.pdb), raw variant data
+# results
+Position histogram, 3D structure screenshot, variants-with-positions CSV
 ## Data sources
 
 - Structure: [AlphaFold DB, P04629](https://alphafold.ebi.ac.uk/entry/P04629)
